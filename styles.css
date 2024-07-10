@@ -56,9 +56,22 @@ body{
 
 
 
-
 /* for textare */
 
 .panel{
-    margin-left: 25px;
+    
+    float: left;
+}
+
+.hidden{
+    display: none;
+}
+
+iframe{
+    border: none;
+}
+
+textarea{
+    border-top: none;
+    resize: none;
 }

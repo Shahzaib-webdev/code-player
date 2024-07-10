@@ -18,10 +18,10 @@
         </div>
 
         <div id="buttonContainer">
-            <div class="toggleButton" id="html">HTML</div>
+            <div class="toggleButton active" id="html">HTML</div>
             <div class="toggleButton" id="css">CSS</div>
-            <div class="toggleButton" id="javascript">JAVASCRIPT</div>
-            <div class="toggleButton" id="output">Output</div>
+            <div class="toggleButton" id="js">JAVASCRIPT</div>
+            <div class="toggleButton active" id="output">Output</div>
         </div>
 
     </div>
@@ -34,13 +34,15 @@
             <p>Hello world</p>
         </textarea>
 
-        <textarea name="htmlCode" id="cssPanel" class="panel" cols="30" rows="10">
-
+        <textarea name="htmlCode" id="cssPanel" class="panel hidden" cols="30" rows="10">
+            p{color:red;}
         </textarea>
 
-        <textarea name="htmlCode" id="jsPanel" class="panel" cols="30" rows="10">
-
+        <textarea name="htmlCode" id="jsPanel" class="panel hidden" cols="30" rows="10">
+            alert("hello");
         </textarea>
+
+        <iframe  class="panel" id="outputPanel" ></iframe>
 
     </div>
 
